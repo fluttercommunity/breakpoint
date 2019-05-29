@@ -4,7 +4,7 @@
 
 # breakpoint
 
-View the webb demo [here](https://fluttercommunity.github.io/breakpoint/#/)!
+View the online demo [here](https://fluttercommunity.github.io/breakpoint/#/)!
 
 ## Overview
 
