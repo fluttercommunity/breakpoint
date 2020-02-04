@@ -96,14 +96,6 @@ class Breakpoint {
         window: WindowSize.medium,
       );
     }
-    if (_width >= 1280) {
-      return Breakpoint(
-        columns: 12,
-        gutters: 24,
-        device: LayoutClass.desktop,
-        window: WindowSize.medium,
-      );
-    }
     if (_width >= 1024) {
       return Breakpoint(
         columns: 12,
