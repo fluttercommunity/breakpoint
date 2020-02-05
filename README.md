@@ -12,7 +12,7 @@ View the online demo [here](https://fluttercommunity.github.io/breakpoint/#/)!
 
 Follows Material Design [Docs](https://material.io/design/layout/responsive-layout-grid.html#breakpoints).
 
-![breakpoint](https://github.com/rodydavis/plugins/blob/master/packages/breakpoint/screenshots/breakpoint.png)
+![breakpoint](https://github.com/fluttercommunity/breakpoint/blob/master/screenshots/breakpoint.png)
 
 ## Usage
 
