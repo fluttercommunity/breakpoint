@@ -17,10 +17,10 @@ class Breakpoint {
 
   /// Following Material Design Guidlines [https://material.io/design/layout/responsive-layout-grid.html#grid-behavior]
   const Breakpoint({
-    this.columns,
-    this.device,
-    this.gutters,
-    this.window,
+    required this.columns,
+    required this.device,
+    required this.gutters,
+    required this.window,
   });
 
   /// Following Material Design Guidlines [https://material.io/design/layout/responsive-layout-grid.html#grid-behavior]
@@ -186,10 +186,10 @@ class BreakpointBuilder extends StatelessWidget {
   /// Wraps layout builder and returns a breakpoint
   BreakpointBuilder({
     this.context,
-    @required this.builder,
+    required this.builder,
   });
   final Widget Function(BuildContext, Breakpoint) builder;
-  final BuildContext context;
+  final BuildContext? context;
   @override
   Widget build(BuildContext root) {
     final _context = context ?? root;
