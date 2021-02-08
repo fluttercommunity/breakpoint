@@ -1,3 +1,7 @@
+## 1.1.0-nullsafety
+
+* Null Safety
+
 ## 1.0.1
 
 * Bump Version
