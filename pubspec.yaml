@@ -1,11 +1,12 @@
 name: breakpoint
 description: A Flutter plugin to calculate the material design breakpoints.
-version: 1.1.0-nullsafety
+version: 1.1.0-nullsafety.0
 authors:
  - Flutter Community <community@flutter.zone>
  - Rody Davis <rody.davis.jr@gmail.com>
-homepage: https://github.com/fluttercommunity/breakpoint
 maintainer: Rody Davis (@rodydavis)
+homepage: https://github.com/rodydavis/plugins
+issue_tracker: https://github.com/fluttercommunity/breakpoint
 
 environment:
   sdk: '>=2.12.0-259.8.beta <3.0.0'
