@@ -209,3 +209,35 @@ enum LayoutClass {
   largeTablet,
   desktop,
 }
+
+extension WindowSizeOperators on WindowSize {
+  int get value => WindowSize.values.indexOf(this);
+
+  /// Whether this [WindowSize] is larger than [other].
+  bool operator >(WindowSize other) => value > other.value;
+
+  /// Whether this [WindowSize] is larger than or equal to [other].
+  bool operator >=(WindowSize other) => value >= other.value;
+
+  /// Whether this [WindowSize] is smaller than [other].
+  bool operator <(WindowSize other) => value < other.value;
+
+  /// Whether this [WindowSize] is smaller than or equal to [other].
+  bool operator <=(WindowSize other) => value <= other.value;
+}
+
+extension LayoutClassOperators on LayoutClass {
+  int get value => LayoutClass.values.indexOf(this);
+
+  /// Whether this [LayoutClass] is larger than [other].
+  bool operator >(LayoutClass other) => value > other.value;
+
+  /// Whether this [LayoutClass] is larger than or equal to [other].
+  bool operator >=(LayoutClass other) => value >= other.value;
+
+  /// Whether this [LayoutClass] is smaller than [other].
+  bool operator <(LayoutClass other) => value < other.value;
+
+  /// Whether this [WindowSize] is smaller than or equal to [other].
+  bool operator <=(LayoutClass other) => value <= other.value;
+}
