@@ -3,6 +3,8 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-yellow.svg)](https://www.buymeacoffee.com/rodydavis)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WSH3GVC49GNNJ)
 ![github pages](https://github.com/fluttercommunity/breakpoint/workflows/github%20pages/badge.svg)
+[![GitHub stars](https://img.shields.io/github/stars/fluttercommunity/breakpoint?color=blue)](https://github.com/fluttercommunity/breakpoint)
+[![breakpoint](https://img.shields.io/pub/v/breakpoint.svg)](https://pub.dev/packages/breakpoint)
 
 
 # breakpoint
