@@ -61,11 +61,12 @@ class Breakpoint {
 
   static Breakpoint _calcBreakpoint(Orientation orientation, double _width) {
     if (orientation == Orientation.landscape) {
+      // ignore: parameter_assignments
       _width += 120;
     }
 
     if (_width >= 1920) {
-      return Breakpoint(
+      return const Breakpoint(
         columns: 12,
         gutters: 24,
         device: LayoutClass.desktop,
@@ -73,7 +74,7 @@ class Breakpoint {
       );
     }
     if (_width >= 1600) {
-      return Breakpoint(
+      return const Breakpoint(
         columns: 12,
         gutters: 24,
         device: LayoutClass.desktop,
@@ -81,7 +82,7 @@ class Breakpoint {
       );
     }
     if (_width >= 1440) {
-      return Breakpoint(
+      return const Breakpoint(
         columns: 12,
         gutters: 24,
         device: LayoutClass.desktop,
@@ -89,7 +90,7 @@ class Breakpoint {
       );
     }
     if (_width >= 1280) {
-      return Breakpoint(
+      return const Breakpoint(
         columns: 12,
         gutters: 24,
         device: LayoutClass.desktop,
@@ -97,7 +98,7 @@ class Breakpoint {
       );
     }
     if (_width >= 1024) {
-      return Breakpoint(
+      return const Breakpoint(
         columns: 12,
         gutters: 24,
         device: LayoutClass.desktop,
@@ -105,7 +106,7 @@ class Breakpoint {
       );
     }
     if (_width >= 960) {
-      return Breakpoint(
+      return const Breakpoint(
         columns: 12,
         gutters: 24,
         device: LayoutClass.largeTablet,
@@ -113,7 +114,7 @@ class Breakpoint {
       );
     }
     if (_width >= 840) {
-      return Breakpoint(
+      return const Breakpoint(
         columns: 12,
         gutters: 24,
         device: LayoutClass.largeTablet,
@@ -121,7 +122,7 @@ class Breakpoint {
       );
     }
     if (_width >= 720) {
-      return Breakpoint(
+      return const Breakpoint(
         columns: 8,
         gutters: 24,
         device: LayoutClass.largeTablet,
@@ -129,7 +130,7 @@ class Breakpoint {
       );
     }
     if (_width >= 600) {
-      return Breakpoint(
+      return const Breakpoint(
         columns: 8,
         gutters: 16,
         device: LayoutClass.smallTablet,
@@ -137,7 +138,7 @@ class Breakpoint {
       );
     }
     if (_width >= 480) {
-      return Breakpoint(
+      return const Breakpoint(
         columns: 4,
         gutters: 16,
         device: LayoutClass.largeHandset,
@@ -145,7 +146,7 @@ class Breakpoint {
       );
     }
     if (_width >= 400) {
-      return Breakpoint(
+      return const Breakpoint(
         columns: 4,
         gutters: 16,
         device: LayoutClass.largeHandset,
@@ -153,14 +154,14 @@ class Breakpoint {
       );
     }
     if (_width >= 360) {
-      return Breakpoint(
+      return const Breakpoint(
         columns: 4,
         gutters: 16,
         device: LayoutClass.mediumHandset,
         window: WindowSize.xsmall,
       );
     }
-    return Breakpoint(
+    return const Breakpoint(
       columns: 4,
       gutters: 16,
       device: LayoutClass.smallHandset,
