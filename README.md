@@ -25,7 +25,7 @@ When you are wanting to calculate the breakpoint of a widget that may not take u
 final _breakpoint = Breakpoint.fromConstraints(constraints);
 ```
 
-When a widget always takes up thye full screen.
+When a widget always takes up the full screen.
 
 ``` dart
 final _breakpoint = Breakpoint.fromMediaQuery(context);
