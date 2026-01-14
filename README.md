@@ -11,6 +11,9 @@
 
 View the online demo [here](https://fluttercommunity.github.io/breakpoint/#/)!
 
+> [!WARNING]
+> This project has moved here: https://github.com/rodydavis/packages.dart
+
 ## Overview
 
 Follows Material Design [Docs](https://material.io/design/layout/responsive-layout-grid.html#breakpoints).
